@@ -192,24 +192,24 @@
                     <form id="audicionesForm" name="inscripciones" netlify>
                         <div class="mb-3">
                             <label for="nombreCompleto" class="form-label" style="color: black;font-weight: bold;">Nombre Completo</label>
-                            <input type="text" class="form-control" id="nombreCompleto" oninput="this.value = this.value.toUpperCase()" required>
+                            <input type="text" class="form-control" id="nombreCompleto" oninput="this.value = this.value.toUpperCase()" name="nombreCompleto" required>
                         </div>
                         <div class="mb-3">
                             <label for="documento" class="form-label" style="color: black;font-weight: bold;">Documento de Identificación</label>
-                            <input type="number" class="form-control" id="documento" required>
+                            <input type="number" class="form-control" id="documento" name="documento" required>
                         </div>
                         <div class="mb-3">
                             <label for="fechaNacimiento" class="form-label" style="color: black;font-weight: bold;">Fecha de Nacimiento</label>
-                            <input type="date" class="form-control" id="fechaNacimiento" required>
+                            <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento" required>
                         </div>
                         <div class="mb-3">
                             <label for="emailAudicion" class="form-label" style="color: black;font-weight: bold;">Correo Electrónico</label>
-                            <input type="email" class="form-control" id="emailAudicion" required>
+                            <input type="email" class="form-control" id="emailAudicion" name="correo" required>
                             <div class="form-text">No compartiremos tu correo con nadie más.</div>
                         </div>
                         <div class="mb-3">
                             <label for="telefono" class="form-label" style="color: black;font-weight: bold;">Teléfono</label>
-                            <input type="tel" class="form-control" id="telefono" required>
+                            <input type="tel" class="form-control" id="telefono" name="telefono" required>
                         </div>
                         <div class="mb-3">
                             <label for="genero-electronica" style="color: black;font-weight: bold;">Género de música electrónica:</label>
